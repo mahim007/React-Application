@@ -1,0 +1,221 @@
+/* the first part-navigation bar */
+
+.outerDiv{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+#nav{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(107, 165, 212);
+    /* overflow: hidden; */
+
+}
+
+#nav div{
+    display: block;
+    font-family: sans-serif;
+    /* border: 1px solid black; */
+    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+h4{
+    font-family: sans-serif;
+}
+
+hr{
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 0.5em;
+    margin-left: 0px;
+    margin-right: 800px;
+    /* border-style: inset; */
+    border-top: 1px solid black;
+    border-width: 1px ;
+    
+}
+
+/* second part degree */
+.degree{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 95%;
+    
+}
+
+.degree1{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 25%;
+    display: inline-block;
+    word-break: break-all;
+    float: left;
+}
+
+.vl {
+    border-left: 4px solid rgba(102, 150, 204, 0.5);
+    display: inline-block;
+    height: 20%;
+}
+
+.degree2{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 30%;
+    display: inline-block;
+    word-break: break-all;
+    float: none;
+}
+
+.degree3{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 27%;
+    display: inline-block;
+    word-break: break-all;
+    float:right;
+}
+
+/* job experience part */
+
+.experience{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 95%;
+}
+
+.expTitle{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 25%;
+    display: inline-block;
+    word-break: break-all;
+    float: left;
+}
+
+.expDetails{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 60%;
+    /* display: inline-block; */
+    word-break: break-all;
+    float: right;
+}
+
+.exp1-head-left{
+    display: inline-block;
+    /* float: left; */
+    /* border: 1px solid; */
+}
+
+.exp1-head-right{
+    display: inline-block;
+    /* float: right; */
+    margin-left: 550px;
+    /* border: 1px solid; */
+}
+
+.exp1-head{
+    display: inline-block;
+}
+
+/* information */
+
+.information{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 95%;
+}
+
+.contact{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 27%;
+    display: inline-block;
+    word-break: break-all;
+    float: left;
+}
+
+
+
+.skillSet1{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 27%;
+    display: inline-block;
+    word-break: break-all;
+    float: none;
+}
+
+.skillSet2{
+    /* border: 1px solid black; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    width: 27%;
+    display: inline-block;
+    word-break: break-all;
+    float:right;
+}
+
+.skill-container{
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.skill-description{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.html {width: 90%; background-color: black; border-radius: 10px}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+
+.cpp {width: 90%; background-color: black;}
+.java {width: 80%; background-color: #2196F3;}
+.python {width: 65%; background-color: #f44336;}
+
+.hr-bar{
+    text-align: center;
+    width: 95%;
+    background-color: rgba(102, 150, 204, 0.5);
+    margin-left: 2%;
+    border-radius: 10px;
+    height: 15px;
+}
+
+body{
+    background-color: #ddd;
+}

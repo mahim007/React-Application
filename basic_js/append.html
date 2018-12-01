@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery add</title>
+
+	<script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript">
+		function appendText() {
+			var text1="<p>text 1</p>";
+			var text2=$("<p></p>").text("text 2");
+			var text3=document.createElement("p");
+			text3.innerHTML="text 3";
+			$("body").append(text1, text2, text3);
+		}
+	</script>
+</head>
+<body>
+
+	<p>first paragraph</p>
+	<button onclick="appendText()">Click</button>
+
+</body>
+</html>

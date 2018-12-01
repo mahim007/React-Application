@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checking Object</title>
+</head>
+<body>
+
+<form action="#" name="myForm">
+    <label>Form name: <input type="text" name="text1" value="temporary"></label>
+    <p>
+        <input type="button" name="button1" value="show form name"
+        onclick="this.form.text1.value=this.form.name;console.log(this);">
+    </p>
+</form>
+
+<script type="text/javascript" src="form.js"></script>
+</body>
+</html>

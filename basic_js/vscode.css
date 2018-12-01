@@ -1,0 +1,33 @@
+/* form {
+            background-color: chartreuse;
+            text-align: center;
+        }
+
+        /* p{
+            text-align: center;
+            background-color: red;
+        } */
+
+        .one{
+            background-color: blue;
+        }
+        .two{
+            background-color: aqua;
+        }
+
+h1{
+    text-align: center;
+    color: rgb(255, 71, 99);
+    background-color: lightblue;
+    margin: 30px;
+} 
+
+body{
+    background-image: url("pexels-photo-462118.jpeg");
+    background-repeat:no-repeat;
+    /* background-attachment: fixed; */
+    background-position:right top;
+    background-size: cover;
+    margin-left: 25px;
+    margin-right: 25px;
+}
