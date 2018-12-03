@@ -38,7 +38,7 @@ class Controller extends React.Component {
     }
 
     lapHandler(){
-
+        this.props.lap();
     }
 
     resetHandler(){
