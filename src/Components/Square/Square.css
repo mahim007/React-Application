@@ -1,0 +1,23 @@
+.btnName{
+    border: 3px solid  darkgray;
+    background: lavender;
+    height: 90px;
+    width: 90px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /*border-left: 3px;*/
+    /*border-right: 3px;*/
+    /*border-top: 3px;*/
+    /*border-bottom: 3px;*/
+
+    text-align: center;
+
+    /*margin-right: 1px;*/
+    /*margin-top: 1px;*/
+
+
+}
