@@ -57,7 +57,7 @@ class Controller extends React.Component {
         
         if (this.state.start && !this.state.reset){
             output=(
-                <div>
+                <div className="my-5">
                     <button
                         className="btn btn-success btn-large px-5 ml-5"
                         onClick={(event)=>this.startHandler()}
@@ -71,7 +71,7 @@ class Controller extends React.Component {
         }
         else if (this.state.pause && this.state.lap){
             output=(
-                <div>
+                <div className="my-5">
                     <button
                         className="btn btn-primary btn-large px-5 ml-5"
                         onClick={(event)=>this.pauseHandler()}
@@ -91,7 +91,7 @@ class Controller extends React.Component {
         }
         else if (this.state.start && this.state.reset){
             output=(
-                <div>
+                <div className="my-5">
                     <button
                         className="btn btn-success btn-large px-5 ml-5"
                         onClick={(event)=>this.startHandler()}
