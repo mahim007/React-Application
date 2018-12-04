@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import Paragraph from "./Paragraph";
 
 class AuthorQuiz extends Component {
-  render() {
-    return (
-      <div>
-        Author Quiz
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <Paragraph name="mahim" />
+            </div>
+        );
+    }
 }
 
 export default AuthorQuiz;
