@@ -2,10 +2,6 @@ import React from "react";
 import Square from "../Square/Square";
 
 class Board extends React.Component{
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return(
             <div className="container col-md-3">
