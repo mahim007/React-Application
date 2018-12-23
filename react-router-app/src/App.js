@@ -8,6 +8,7 @@ import AboutPage from "./components/AboutPage";
 import ContactPage from "./components/ContactPage";
 import Navigation from "./components/NavigationPage";
 import Error from "./components/Error";
+import PrivateRouter from "./PrivateRoute";
 import Posts from "./components/PostsPage";
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
                         <Route path="/" exact={true} component={HomePage} />
                         <Route path="/about" component={AboutPage} />
                         <Route path="/contact" component={ContactPage} />
-                        <Route path="/posts/:postId" component={Posts} />
+                        <PrivateRouter path="/posts/:postId" component={Posts} />
                         <Route component={Error} />
                     </Switch>
                 </React.Fragment>
