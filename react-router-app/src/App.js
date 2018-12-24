@@ -10,6 +10,8 @@ import Navigation from "./components/NavigationPage";
 import Error from "./components/Error";
 import PrivateRouter from "./PrivateRoute";
 import Posts from "./components/PostsPage";
+import LoginPage from "./components/LoginPage";
+import Logout from "./components/LogoutPage";
 
 class App extends Component {
     render() {
@@ -23,6 +25,8 @@ class App extends Component {
                         <Route path="/about" component={AboutPage} />
                         <Route path="/contact" component={ContactPage} />
                         <PrivateRouter path="/posts/:postId" component={Posts} />
+                        <Route path="/login" component={LoginPage} />
+                        <Route path="/logout" component={Logout} />
                         <Route component={Error} />
                     </Switch>
                 </React.Fragment>
