@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import User from "./User";
 
 const Home = ({data, ...rest}) => {
     console.log("data:",data);
@@ -40,7 +39,7 @@ const Home = ({data, ...rest}) => {
                                     className="btn btn-secondary"
                                     onClick={ (id) => handleViewClick(user.id) }
                                 >
-                                    <Link to={{pathname: `/user/${user.id}`}}>View details</Link>
+                                    <Link to={{pathname: `/user/${user.id}`}}>View Posts</Link>
                                 </button>
                             </div>
                         </li>
