@@ -3,15 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="63b38896-bdb7-4bc3-8fc2-c953b9d6bdc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../my-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/BlogPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/NumberList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/Tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/components/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/components/Counts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/store/reducers/rootReducers.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PostForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/postActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/postActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/Link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,7 +98,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="374">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -159,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +201,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin-template" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -246,11 +254,13 @@
       <workItem from="1544677791674" duration="22408000" />
       <workItem from="1544794546479" duration="8644000" />
       <workItem from="1544872994081" duration="69000" />
+      <workItem from="1545076598448" duration="860000" />
+      <workItem from="1545416316351" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37019000" />
+    <option name="totallyTimeSpent" value="37904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="374">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />

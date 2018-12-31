@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29f649d1-99ff-4917-a622-0c30ae93a995" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/recipe-application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JavaScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/JavaScript.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/author-quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/author-quiz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/AuthorQuiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/AuthorQuiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/AuthorQuiz.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/AuthorQuiz.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/Paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author-quiz/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../author-quiz/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/JS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/JS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/addClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/addClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/addClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/addClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/ajaxDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/ajaxDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/ajaxDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/ajaxDemo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/append.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/append.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/closure.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/closure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/control.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/control.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/date/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/date/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/date/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/date/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/es6/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/es6/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/es6/exponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/es6/exponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/es6/isNan.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/es6/isNan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/es6/let_variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/es6/let_variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/es6/transpiling.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/es6/transpiling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/exception.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/expression/expression.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/expression/expression.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/expression/validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/expression/validate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/function/closure/example1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/function/closure/example1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/function/closure/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/function/closure/example2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/function/fn1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/function/fn1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/funnction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/funnction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery/animate_method.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery/animate_method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery/animate_method.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery/animate_method.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery/test1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery/test1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery/test1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery/test1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/jQuery1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/jQuery1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/learnJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/learnJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/arguments.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/arguments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/labeledLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/labeledLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/loop.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/loop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/loop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/objectProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/objectProperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/loop/shorter_fun.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/loop/shorter_fun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/equality.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/equality.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/get.set.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/get.set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/object1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/object1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/object2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/object2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/object/object3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/object/object3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/practice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/practice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/practicejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/practicejs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/prototype_chaining/inheriting_methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/prototype_chaining/inheriting_methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/prototype_chaining/prototype_example.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/prototype_chaining/prototype_example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/recursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/string/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/string/string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/this/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/this/this.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/this/this.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/this/this.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/traversing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/traversing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/traversing.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/traversing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/vscode.css" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/vscode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/vscode.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/vscode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/vscode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/vscode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/workshop1/myCv.css" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/workshop1/myCv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_js/workshop1/myCv.html" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_js/workshop1/myCv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/converter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/Components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/Components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/Components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/Components/Currency/Currency.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/Components/Currency/Currency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/Components/Display/Display.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/Components/Display/Display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/Components/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/Components/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../converter/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../converter/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/my-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/App3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/BlogPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/NumberList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/Tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/components/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/components/Counts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app/src/store/reducers/rootReducers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/react-redux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/react-redux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/Components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/Components/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/Components/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/Components/PostForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/actions/postActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/actions/postActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/reducers/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/reducers/postReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-redux-app/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/Link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/components/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/containers/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/containers/AddTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/containers/FilterLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/containers/FilterLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/containers/VisibleTodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/containers/VisibleTodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter-app/src/store/visibilityFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../starter-app/src/store/visibilityFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/stop-watch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/stop-watch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/Controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/Controller/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/CountDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/CountDown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/Digit/Digit.css" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/Digit/Digit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/Digit/Digit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/CountDown/Digit/Digit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/Laps/Laps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/Laps/Laps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/Title/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/Title/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/Components/Title/title.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/Components/Title/title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stop-watch/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stop-watch/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/tic-tac-toe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/tic-tac-toe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Board/Board.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Board/Board.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Board/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Board/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Game/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Game/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Square/Square.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Square/Square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Square/Square.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/Components/Square/Square.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tic-tac-toe/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tic-tac-toe/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/block_scope/example_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/hoisting/example_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/hoisting/example_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/eval.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/eval.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you_dont_know_js/scope/lexical_scope/example_5.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Form.js" />
+        <option value="$PROJECT_DIR$/src/components/Users.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/Router.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="59" />
+    <option name="y" value="25" />
+    <option name="width" value="654" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="recipe-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29f649d1-99ff-4917-a622-0c30ae93a995" name="Default Changelist" comment="" />
+      <created>1545742461262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545742461262</updated>
+      <workItem from="1545742508361" duration="6234000" />
+      <workItem from="1545755535689" duration="4586000" />
+      <workItem from="1546083685040" duration="1576000" />
+      <workItem from="1546096719258" duration="3256000" />
+      <workItem from="1546177692872" duration="1014000" />
+      <workItem from="1546248917207" duration="8114000" />
+      <workItem from="1546258393997" duration="1186000" />
+      <workItem from="1546259993109" duration="1684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27650000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="25" width="1307" height="743" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17912772" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.752443" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47394136" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Form.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Users.js" />
+    <entry file="file://$PROJECT_DIR$/src/Router.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

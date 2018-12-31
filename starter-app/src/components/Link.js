@@ -11,6 +11,9 @@ const Link = ({active, children, onClick}) =>{
             }}
         >
             {children}
+            {
+                console.log("children: "+children+" active:"+active )
+            }
         </button>
     );
 }
