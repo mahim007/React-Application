@@ -36,7 +36,7 @@ class App extends Component {
 		return (
 			<BrowserRouter>
 				<div className="App">
-					<h1>Welcome to PostBook</h1>
+					<h1>Welcome Message</h1>
 					<Header />
 					<Switch>
 						<Route path="/home" render={() => <Home data={this.state} />} />
