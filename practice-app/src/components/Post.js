@@ -1,5 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import loadCommentsAction from "../actions/loadCommentsAction";
+import {connect} from "react-redux";
+import CommentPage from "./CommentPage";
 
 let styleList={
     border: "2px solid",
@@ -42,7 +45,12 @@ class Post extends React.Component {
                             comments: results[1],
                             isLoaded: true
                         })
+                        return results[1];
                     } )
+                    .then(comments =>{
+                        console.log("now dispatching action with: ", comments);
+                        this.props.loadComments(comments);
+                    })
             )
 
 
@@ -51,6 +59,7 @@ class Post extends React.Component {
     render() {
         return (
             <div>
+                <CommentPage/>
                 {
                     this.state.isLoaded === false ?
                         <h1>Loading....</h1>
@@ -90,4 +99,10 @@ class Post extends React.Component {
     }
 }
 
-export default Post;
+function mapDispatchToProps(dispatch){
+    return({
+        loadComments: (comments) => dispatch(loadCommentsAction(comments))
+    });
+}
+
+export default connect(null, mapDispatchToProps)(Post);
