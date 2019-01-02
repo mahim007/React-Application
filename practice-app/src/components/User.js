@@ -71,7 +71,6 @@ class User extends React.Component {
                     }</ul>
                     </div>
                 }
-                <h1></h1>
             </div>
         );
     }
