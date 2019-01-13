@@ -1,7 +1,7 @@
 import React from "react";
 
 
-let styleList={
+let styleList = {
     border: "2px solid",
     display: "inline-block",
     borderRadius: "25px",
@@ -13,11 +13,12 @@ let styleList={
     margin: "20px"
 };
 
-const CommentPage = ({comments}) => {
+const CommentPage = ({ comments }) => {
     console.log("comment page loaded!!!!");
     console.log("comment page props:", comments);
     return (
         <div>
+            
             {
                 comments.map((comment, index) => (
                     <div
@@ -36,7 +37,7 @@ const CommentPage = ({comments}) => {
                     </div>
                 ))
             }
-            <input type="text"  />
+
         </div>
     );
 }
