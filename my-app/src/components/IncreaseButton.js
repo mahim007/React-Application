@@ -3,6 +3,7 @@ import {connect} from "react-redux";
 import onIncreaseClick from "../actions/onIncreaseClick";
 
 const IncreaseButton = (props) => {
+    console.log('dispatch: ', props.dispatch);
     return(
         <div>
             <button
@@ -15,7 +16,10 @@ const IncreaseButton = (props) => {
 
 function mapDispatchToProps(dispatch){
     return({
-        handleIncrease: () => dispatch(onIncreaseClick())
+        handleIncrease: () => {
+            console.log('dispatching props: ', dispatch);
+            dispatch(onIncreaseClick())
+        }
     });
 }
 

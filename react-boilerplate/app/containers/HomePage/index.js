@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /*
  * HomePage
  *
@@ -12,14 +13,30 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import { NavLink } from 'react-router-dom';
 
 /* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.PureComponent {
+  linkDesign = {
+    padding: '10px',
+    margin: '15px',
+    border: '1px solid blue',
+    textAlign: 'center',
+    backgroundColor: 'green',
+    color: 'red',
+  };
+
   render() {
-    return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+    const navbar = (
+      <div className="row">
+        <NavLink to="/" className="col-md-6 cursor-pointer">
+          Homepage
+        </NavLink>
+        <NavLink to="/blog" className="col-md-6 text-align-center">
+          BlogPage
+        </NavLink>
+      </div>
     );
+    return <div className="container">{navbar}</div>;
   }
 }

@@ -2,24 +2,28 @@ import React, { Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
 
-import {Provider} from "react-redux";
+import { Provider } from "react-redux";
 import store from "../store/store";
 
 import IncreaseButton from "./IncreaseButton";
 import DecreaseButton from "./DecreaseButton";
 import OutputResult from "./OutputResult";
+import Review from './Review';
 
 class App extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <Provider store={store}>
                 <div className="App">
                     <div className="container">
                         <div className="row">
-                            <IncreaseButton/>
-                            <OutputResult/>
+                            <IncreaseButton />
+                            <OutputResult />
                             {console.log(store.getState())}
-                            <DecreaseButton/>
+                            <DecreaseButton />
+                        </div>
+                        <div className="row">
+                            <Review />
                         </div>
                     </div>
                 </div>
