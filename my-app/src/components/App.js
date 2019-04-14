@@ -24,6 +24,7 @@ class App extends Component {
                         </div>
                         <div className="row">
                             <Review />
+
                         </div>
                     </div>
                 </div>
