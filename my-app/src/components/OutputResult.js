@@ -2,8 +2,6 @@ import React from 'react';
 import {connect} from "react-redux";
 
 const OutputResult = (props) => {
-    console.log(props.counterValue);
-    
     return(
         <div style={{
             background : "skyblue",

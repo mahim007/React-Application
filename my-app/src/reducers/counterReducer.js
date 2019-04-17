@@ -3,8 +3,6 @@ const initialState={
 };
 
 function counterReducer(state=initialState, action){
-    console.log("count reducer : counter :", state.counter);
-    
     switch (action.type) {
         case "INCREASE": {
             return({

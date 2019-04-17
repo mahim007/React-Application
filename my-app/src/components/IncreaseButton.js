@@ -3,7 +3,6 @@ import {connect} from "react-redux";
 import onIncreaseClick from "../actions/onIncreaseClick";
 
 const IncreaseButton = (props) => {
-    console.log('dispatch: ', props.dispatch);
     return(
         <div>
             <button

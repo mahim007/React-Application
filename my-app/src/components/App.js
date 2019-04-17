@@ -14,18 +14,18 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <div className="App">
-                    <div className="container">
-                        <div className="row">
-                            <IncreaseButton />
-                            <OutputResult />
-                            {console.log(store.getState())}
-                            <DecreaseButton />
-                        </div>
-                        <div className="row">
-                            <Review />
-
-                        </div>
+                <div className="container">
+                    <div
+                        style={{ display: 'flex', paddingTop: '100px' }}
+                        className="row align-items-center justify-content-center">
+                        <IncreaseButton />
+                        <OutputResult />
+                        <DecreaseButton />
+                    </div>
+                    <div
+                        style={{ paddingTop: '50px' }}
+                        className="row align-items-center justify-content-center">
+                        <Review name='mahim' />
                     </div>
                 </div>
             </Provider>

@@ -5,23 +5,23 @@ import changeReviewAction from '../actions/onChangeReview';
 
 
 const review = (props) => {
+    //console.log(props);
     return (
-        <div className="row">
+        <div className="row" style={{display: 'flex'}}>
             <input
                 className="col-md-6"
                 type="text"
                 value={props.review}
                 onChange={props.handleReviewChange}
             />
-            <h2 className="col-md-6">
+            <p className="col-md-6">
                 User's review: {props.review}
-            </h2>
+            </p>
         </div>
     );
 }
 
 function mapStateToProps(state) {
-    console.log('in review: ', state);
     return({
         review: state.review.review
     })
@@ -30,7 +30,6 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return({
         handleReviewChange: (evt) => {
-            console.log('evt', evt.target.value);
              dispatch(changeReviewAction(evt.target.value)) }
     });
 }
